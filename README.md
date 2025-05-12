@@ -1,12 +1,49 @@
-# React + Vite
+# Countdown 2027
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite + React](https://img.shields.io/badge/Vite-React-blueviolet?logo=react)
 
-Currently, two official plugins are available:
+App web minimalista y responsiva que muestra una cuenta regresiva hasta el **27 de enero de 2027** en años, meses, semanas, días, horas, minutos y segundos, con visualizaciones modernas y limpias.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+Accede a la app en: [https://wolfclav.github.io/countdown/](https://wolfclav.github.io/countdown/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Características
+- Cuenta regresiva precisa hasta el 27 de enero de 2027
+- Visualización en barras verticales, reloj circular, timeline y donut
+- Valores exactos en todas las unidades
+- Diseño minimalista, sin fondos ni contenedores extra
+- 100% responsiva y lista para móviles
+
+## 🖥️ Captura de pantalla
+
+![Screenshot](public/screenshot.png)
+
+## 🛠️ Instalación local
+
+```bash
+# Clona el repositorio
+ git clone https://github.com/wolfclav/countdown.git
+ cd countdown
+
+# Instala dependencias
+ npm install
+
+# Ejecuta en modo desarrollo
+ npm run dev
+```
+
+## 📦 Despliegue en GitHub Pages
+
+```bash
+npm run deploy
+```
+La app se publica automáticamente en la rama `gh-pages`.
+
+## 📁 Estructura principal
+- `src/App.jsx`: Lógica y visualizaciones principales
+- `src/App.css`: Estilos globales y visuales
+- `vite.config.js`: Configuración para GitHub Pages
+
+## 📝 Licencia
+MIT
